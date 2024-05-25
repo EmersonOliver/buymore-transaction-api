@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 @Provider
 public class BuymoreTransactionExceptionHandler implements ExceptionMapper<Exception> {
 
-
     private Response.Status status = Response.Status.INTERNAL_SERVER_ERROR;
 
     @Override

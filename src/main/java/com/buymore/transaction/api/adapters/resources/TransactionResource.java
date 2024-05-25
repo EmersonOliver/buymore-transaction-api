@@ -15,7 +15,8 @@ public class TransactionResource {
 
     @POST
     public Response sendTransaction(TransactionRecord request) {
-        return null;
+        this.clientTransactionService.sendTransaction(request);
+        return Response.ok().build();
     }
 
 

@@ -15,7 +15,7 @@ public class KafkaTransactionProducer {
     Logger LOG;
 
     @Inject
-    @Channel("buymore-transaction-balance")
+    @Channel("transaction-balance")
     Emitter<TransactionDTO> transactionDTOEmitter;
 
 

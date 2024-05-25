@@ -32,6 +32,9 @@ public class ClientTransactionEntity {
     @Column(name = "type_transaction")
     private String typeTransaction;
 
+    @Column(name = "transaction_authorize")
+    private String transactionAuthorize;
+
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "movement_date", nullable = false)
     private Date movementDate;
